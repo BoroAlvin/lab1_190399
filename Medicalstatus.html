@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Medical Status</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="properties.html">Team Groups</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="applying.html">Applying</a>
+    <a href="gym.html">Gym Application</a>
+    <a href="Medicalstatus.html">Medical Evaluation</a>
+  </nav>
+
+  <h1>Player Medical Status Form</h1>
+
+  <form>
+    <label for="height">Height (in cm):</label>
+    <input type="number" id="height" name="height" required>
+
+    <label for="weight">Weight (in kg):</label>
+    <input type="number" id="weight" name="weight" required>
+
+    <label for="bmi">BMI (Body Mass Index):</label>
+    <input type="text" id="bmi" name="bmi">
+
+    <label for="medical_issues">Any Medical Issues:</label>
+    <textarea id="medical_issues" name="medical_issues" rows="3" placeholder="E.g., Asthma, Diabetes, etc."></textarea>
+
+    <label for="injuries">Previous Injuries:</label>
+    <textarea id="injuries" name="injuries" rows="3"></textarea>
+
+    <label for="surgeries">Any Surgeries Given:</label>
+    <textarea id="surgeries" name="surgeries" rows="3"></textarea>
+
+    <h3>Emergency Contacts</h3>
+
+    <label for="emergency_name1">Emergency Contact 1 - Full Name:</label>
+    <input type="text" id="emergency_name1" name="emergency_name1" required>
+
+    <label for="emergency_phone1">Emergency Contact 1 - Phone Number:</label>
+    <input type="tel" id="emergency_phone1" name="emergency_phone1" required>
+
+    <label for="emergency_name2">Emergency Contact 2 - Full Name:</label>
+    <input type="text" id="emergency_name2" name="emergency_name2">
+
+    <label for="emergency_phone2">Emergency Contact 2 - Phone Number:</label>
+    <input type="tel" id="emergency_phone2" name="emergency_phone2">
+
+    <input type="submit" value="Submit Medical Info">
+  </form>
+
+  <footer>
+    <p>&copy; 2025 Our Basketball Team. All rights reserved.</p>
+  </footer>
+</body>
+</html>
